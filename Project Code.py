@@ -179,10 +179,7 @@ def main():
                 else:
                     print("Split not allowed. Choose another action.")
             
-            elif action == "Surrender":
-                print(f"{player.name} Surrenders. You lose half your bet.")
-                player.score = 0
-                break
+            
 
     dealer.play(deck)
     print(f"\nDealer's Hand: {dealer.hand} - Score: {dealer.score}")
